@@ -21,6 +21,7 @@
 
 body {
   background-color: var(--transparent-white);
+  height: 800px;
 }
 
 .whole_div {
@@ -35,14 +36,15 @@ body {
 /* =========mobile=========== */
 
 @media (max-width: 500px) {
-  body {
+  /* body {
     width: 370px;
-  }
+  } */
   .whole_div {
     flex-direction: column;
     margin: auto;
     max-width: 330px;
-    margin: 100px 0px 1000px 20px;
+    margin-top: 80px;
+    /* margin: 100px 0px 1000px 20px; */
   }
 }
 /* ========================= */
